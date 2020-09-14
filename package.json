@@ -1,19 +1,22 @@
 {
-  "name": "d2reader",
-  "version": "1.0.0",
-  "description": "API RESTful pour récupérer les informations contenues dans les fichiers : .d2i, .d2o et .d2p du jeu Dofus.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ylhial07/D2Reader.git"
-  },
-  "author": "ylhial07",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ylhial07/D2Reader/issues"
-  },
-  "homepage": "https://github.com/ylhial07/D2Reader#readme"
+    "name": "d2reader",
+    "version": "1.0.0",
+    "description": "API RESTful pour récupérer les informations contenues dans les fichiers : .d2i, .d2o et .d2p du jeu Dofus.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ylhial07/D2Reader.git"
+    },
+    "author": "ylhial07",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ylhial07/D2Reader/issues"
+    },
+    "homepage": "https://github.com/ylhial07/D2Reader#readme",
+    "dependencies": {
+        "bytearray-node": "^3.3.0"
+    }
 }
